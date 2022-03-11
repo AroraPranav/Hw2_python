@@ -22,6 +22,6 @@ for k in range(len(lone)):
 
 dict_sort = sorted(dict_sent, key=dict_sent.get, reverse=True)[:5]
 
-print("")
+print("\r")
 for l in range(len(dict_sort)):
-    print(str(dict_sort[l]) + "- " + str(dict_sent[dict_sort[l]]))
+    print(str(dict_sort[l]) + ": " + str(dict_sent[dict_sort[l]]))
